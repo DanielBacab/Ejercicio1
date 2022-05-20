@@ -9,11 +9,6 @@ pipeline{
       stage('Test'){
         steps{
             echo "Do something else"
-            sh '''
-            ls
-            pwd
-            uname
-           
         }
       }
       stage('Deploy'){
