@@ -3,6 +3,8 @@ pipeline{
   stages{
     stage('Build'){
       steps{
+        ls
+        pwd
         echo "Do something"
         }
     }
