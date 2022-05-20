@@ -5,7 +5,7 @@ pipeline{
       steps{
         sh'''
         ls
-        echo "hola Mundo"
+        echo "Esto es el main"
         uname
         echo $Prueba
         hostname
