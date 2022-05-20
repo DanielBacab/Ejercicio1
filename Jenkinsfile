@@ -5,7 +5,7 @@ pipeline{
       steps{
         sh'''
         ls
-        echo "hola Mundo"
+        echo "Esto fue tomado de la branch 2"
         uname
         echo $Prueba
         hostname
