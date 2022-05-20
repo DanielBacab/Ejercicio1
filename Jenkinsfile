@@ -3,9 +3,15 @@ pipeline{
   stages{
     stage('Build'){
       steps{
+        sh'''
         ls
-        pwd
-        echo "Do something"
+        echo "hola"
+        uname
+        echo $Prueba
+        hostname
+        touch 1
+        '''
+  
         }
     }
       stage('Test'){
