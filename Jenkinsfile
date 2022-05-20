@@ -14,7 +14,7 @@ pipeline{
       stage('Deploy'){
         steps{
             echo "Here goes nothing"
-            echo $Prueba
+            
         }
       }
     }
