@@ -5,13 +5,13 @@ pipeline{
       steps{
         sh'''
         ls
-        echo "hola Mundo"
+        echo "Esto fue tomado de la brach 3"
         uname
         echo $Prueba
         hostname
         touch 1
         pwd
-        echo "nuevo"
+
         '''
   
         }
